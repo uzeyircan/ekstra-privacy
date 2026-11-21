@@ -1,255 +1,247 @@
 
-# EKSTRA Gizlilik Politikası
-
-Son güncelleme: [YAYIN TARİHİ]
-Uygulama sürümü: 1.0
-
-Bu politika, Android için EKSTRA uygulamasının ("Uygulama") hangi verileri
-nasıl işlediğini açıklar. Uygulamayı [GELİŞTİRİCİ ADI / UNVANI] ("biz")
-geliştirir ve yayınlar.
-
-## 1. Kısaca
-
-- Mesai, vardiya, maaş ve hedef kayıtların **yalnızca cihazında** saklanır.
-  Bu kayıtlar bizim sunucularımıza gönderilmez; EKSTRA 1.0'da hesap, giriş
-  veya bulut senkronizasyonu yoktur.
-- Uygulama hatalarını ve performansını izlemek için **Sentry** kullanılır.
-- Pro aboneliğini doğrulamak ve geri yüklemek için **Google Play Faturalandırma**
-  ve **RevenueCat** kullanılır.
-- Ücretsiz planda, ilk kullanımdan **72 saat sonra** Ana Sayfa'da **Google
-  AdMob** banner reklamı gösterilebilir. Reklam için Google'a cihazının reklam
-  kimliği ve bazı cihaz/kullanım bilgileri iletilir (bkz. Bölüm 6). Mesai ve
-  maaş kayıtların reklam için kullanılmaz ve Google'a gönderilmez.
-- Pro aboneliği yalnızca reklamları kaldırır; tüm özellikler ücretsizdir.
-
-## 2. Cihazında saklanan veriler
-
-Uygulamaya girdiğin veya uygulamanın senin için oluşturduğu şu veriler
-cihazında saklanır:
-
-- Mesai kayıtları (tarih, saat, süre, katsayı, notlar), vardiya ve vardiya
-  şablonları, gün durumları (izin, rapor vb.)
-- Ücret ve bordro ayarları, bordro karşılaştırmaları, işyerleri ve hedefler
-- Bildirim tercihleri, tema tercihi ve diğer uygulama ayarları
-- Pro durumunun yerel kopyası
-- Uygulamanın bu cihazda ilk kullanıldığı zaman (72 saatlik reklamsız
-  başlangıç süresini hesaplamak için; cihaz dışına gönderilmez)
-- Kayıtlarını geri alabilmen için tutulan yerel geri yükleme anlık görüntüleri
-
-Bu veriler cihazında **şifrelenmiş** olarak tutulur; şifreleme anahtarı
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="EKSTRA uygulamasının gizlilik politikası, kişisel verilerin işlenmesi, reklamlar ve abonelikler hakkında bilgiler.">
+<title>Gizlilik Politikası | EKSTRA</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1e293b;background:#f5f7fb;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;line-height:1.75}header{background:#101827;color:#fff;padding:30px 20px}header .inner{max-width:850px;margin:auto;display:flex;align-items:center;gap:14px}.mark{background:#60a5fa;color:#0b1830;border-radius:12px;padding:8px 13px;font-weight:850;font-size:23px}header strong{font-size:21px;letter-spacing:.03em}header small{display:block;color:#cbd5e1}main{max-width:890px;margin:32px auto 60px;padding:0 18px}.paper{background:white;border:1px solid #e2e8f0;border-radius:18px;padding:clamp(22px,5vw,52px);box-shadow:0 8px 32px rgba(15,23,42,.05);overflow-wrap:anywhere}h1{font-size:clamp(28px,4vw,38px);line-height:1.25;color:#0f172a;margin:0 0 22px}h2{font-size:21px;line-height:1.4;color:#0f172a;margin:38px 0 13px;padding-top:22px;border-top:1px solid #e2e8f0}h3{font-size:17px;color:#0f172a;margin-top:24px}p{margin:12px 0}ul,ol{padding-left:24px}li{margin:9px 0}a{color:#1d4ed8;text-decoration:underline;text-underline-offset:3px}a:hover{color:#1e40af}strong{color:#0f172a}footer{text-align:center;font-size:13px;color:#64748b;padding:0 20px 35px}@media(max-width:600px){header{padding:20px 16px}main{margin:16px auto 38px;padding:0 10px}.paper{border-radius:12px;padding:22px 18px}h2{font-size:19px}}
+</style>
+</head>
+<body>
+<header><div class="inner"><span class="mark" aria-hidden="true">E</span><div><strong>EKSTRA</strong><small>Gizlilik ve veri koruma</small></div></div></header>
+<main><article class="paper">
+<!-- Orijinal gizlilik politikası metni Markdown'dan HTML'ye dönüştürülmüştür. -->
+<h1>EKSTRA Gizlilik Politikası</h1>
+<p>Son güncelleme: [YAYIN TARİHİ]
+Uygulama sürümü: 1.0</p>
+<p>Bu politika, Android için EKSTRA uygulamasının (&quot;Uygulama&quot;) hangi verileri
+nasıl işlediğini açıklar. Uygulamayı [GELİŞTİRİCİ ADI / UNVANI] (&quot;biz&quot;)
+geliştirir ve yayınlar.</p>
+<h2>1. Kısaca</h2>
+<ul>
+<li>Mesai, vardiya, maaş ve hedef kayıtların <strong>yalnızca cihazında</strong> saklanır.
+Bu kayıtlar bizim sunucularımıza gönderilmez; EKSTRA 1.0'da hesap, giriş
+veya bulut senkronizasyonu yoktur.</li>
+<li>Uygulama hatalarını ve performansını izlemek için <strong>Sentry</strong> kullanılır.</li>
+<li>Pro aboneliğini doğrulamak ve geri yüklemek için <strong>Google Play Faturalandırma</strong>
+ve <strong>RevenueCat</strong> kullanılır.</li>
+<li>Ücretsiz planda, ilk kullanımdan <strong>72 saat sonra</strong> Ana Sayfa'da <strong>Google
+AdMob</strong> banner reklamı gösterilebilir. Reklam için Google'a cihazının reklam
+kimliği ve bazı cihaz/kullanım bilgileri iletilir (bkz. Bölüm 6). Mesai ve
+maaş kayıtların reklam için kullanılmaz ve Google'a gönderilmez.</li>
+<li>Pro aboneliği yalnızca reklamları kaldırır; tüm özellikler ücretsizdir.</li>
+</ul>
+<h2>2. Cihazında saklanan veriler</h2>
+<p>Uygulamaya girdiğin veya uygulamanın senin için oluşturduğu şu veriler
+cihazında saklanır:</p>
+<ul>
+<li>Mesai kayıtları (tarih, saat, süre, katsayı, notlar), vardiya ve vardiya
+şablonları, gün durumları (izin, rapor vb.)</li>
+<li>Ücret ve bordro ayarları, bordro karşılaştırmaları, işyerleri ve hedefler</li>
+<li>Bildirim tercihleri, tema tercihi ve diğer uygulama ayarları</li>
+<li>Pro durumunun yerel kopyası</li>
+<li>Uygulamanın bu cihazda ilk kullanıldığı zaman (72 saatlik reklamsız
+başlangıç süresini hesaplamak için; cihaz dışına gönderilmez)</li>
+<li>Kayıtlarını geri alabilmen için tutulan yerel geri yükleme anlık görüntüleri</li>
+</ul>
+<p>Bu veriler cihazında <strong>şifrelenmiş</strong> olarak tutulur; şifreleme anahtarı
 Android'in güvenli anahtar deposunda (Android Keystore) korunur. Bu verilere
-biz erişemeyiz.
-
-**Ana ekran widget'ı:** Widget'ı eklersen, bazı özet bilgiler (bugünkü ve
+biz erişemeyiz.</p>
+<p><strong>Ana ekran widget'ı:</strong> Widget'ı eklersen, bazı özet bilgiler (bugünkü ve
 aylık mesai saati, aylık tahmini kazanç, dönem adı) ana ekranında görünür. Bu
 özet, widget'ın okuyabilmesi için cihazda ayrıca ve şifrelenmeden saklanır;
-cihaz dışına gönderilmez.
-
-**Bildirimler:** Hatırlatıcılar cihazında yerel olarak planlanır; bunun için
-herhangi bir sunucu kullanılmaz.
-
-## 3. Yedekleme, dışa ve içe aktarma
-
-- **JSON yedeği ve raporlar:** Yalnızca sen istediğinde oluşturulur. Dosya,
-  Android'in paylaşım ekranı aracılığıyla senin seçtiğin yere (ör. dosyalar,
-  e-posta, bulut depolama uygulaman) gönderilir veya panoya kopyalanır. Bu
-  noktadan sonra dosya, seçtiğin uygulamanın ya da hizmetin kurallarına tabidir.
-  Yedek dosyası şifrelenmez ve maaş/mesai bilgilerini içerir; güvenli bir yerde
-  saklamanı öneririz.
-- **İçe aktarma:** Seçtiğin JSON dosyası veya panodaki metin yalnızca cihazında
-  okunur ve hiçbir yere gönderilmez.
-- **Android yedeklemesi ve cihaz aktarımı:** Uygulama verileri, Google bulut
-  yedeklemesine ve yeni telefona cihazdan cihaza aktarıma bilerek **dahil
-  edilmez**; çünkü şifreleme anahtarı cihazdan çıkarılamaz ve aktarılan veriler
-  yeni cihazda açılamaz. Verilerini yeni cihaza taşımak için eski cihazda JSON
-  yedeği oluşturup yeni cihazda içe aktarmalısın.
-
-## 4. Hata ve performans raporları (Sentry)
-
-Uygulamanın kararlılığını sağlamak için Functional Software, Inc. ("Sentry")
+cihaz dışına gönderilmez.</p>
+<p><strong>Bildirimler:</strong> Hatırlatıcılar cihazında yerel olarak planlanır; bunun için
+herhangi bir sunucu kullanılmaz.</p>
+<h2>3. Yedekleme, dışa ve içe aktarma</h2>
+<ul>
+<li><strong>JSON yedeği ve raporlar:</strong> Yalnızca sen istediğinde oluşturulur. Dosya,
+Android'in paylaşım ekranı aracılığıyla senin seçtiğin yere (ör. dosyalar,
+e-posta, bulut depolama uygulaman) gönderilir veya panoya kopyalanır. Bu
+noktadan sonra dosya, seçtiğin uygulamanın ya da hizmetin kurallarına tabidir.
+Yedek dosyası şifrelenmez ve maaş/mesai bilgilerini içerir; güvenli bir yerde
+saklamanı öneririz.</li>
+<li><strong>İçe aktarma:</strong> Seçtiğin JSON dosyası veya panodaki metin yalnızca cihazında
+okunur ve hiçbir yere gönderilmez.</li>
+<li><strong>Android yedeklemesi ve cihaz aktarımı:</strong> Uygulama verileri, Google bulut
+yedeklemesine ve yeni telefona cihazdan cihaza aktarıma bilerek <strong>dahil
+edilmez</strong>; çünkü şifreleme anahtarı cihazdan çıkarılamaz ve aktarılan veriler
+yeni cihazda açılamaz. Verilerini yeni cihaza taşımak için eski cihazda JSON
+yedeği oluşturup yeni cihazda içe aktarmalısın.</li>
+</ul>
+<h2>4. Hata ve performans raporları (Sentry)</h2>
+<p>Uygulamanın kararlılığını sağlamak için Functional Software, Inc. (&quot;Sentry&quot;)
 hizmetini kullanırız. Uygulama çöktüğünde, bir hata oluştuğunda veya
 performans ölçümü için seçilen oturumların bir kısmında (yaklaşık %20) Sentry'ye
-şu veriler gönderilebilir:
-
-- Hata türü, hata mesajı ve yığın izi (stack trace), yerel (native) çökme bilgisi,
-  uygulamanın yanıt vermemesi (ANR) bilgisi
-- Hatadan önceki uygulama olayları (ör. ekran geçişleri, uygulamanın ön/arka
-  plana geçmesi, sistem olayları, uygulama günlük satırları)
-- Cihaz modeli, üreticisi, Android sürümü, ekran, bellek ve depolama bilgileri,
-  dil ve saat dilimi
-- Uygulama sürümü ve ortamı, açılış süresi ve ekran performansı ölçümleri
-- Sentry'nin bu kurulum için ürettiği rastgele bir tanımlayıcı
-- Bağlantı sırasında doğal olarak iletilen IP adresi
-
-Uygulama Sentry'ye adını, e-posta adresini veya ekran görüntüsü göndermez
+şu veriler gönderilebilir:</p>
+<ul>
+<li>Hata türü, hata mesajı ve yığın izi (stack trace), yerel (native) çökme bilgisi,
+uygulamanın yanıt vermemesi (ANR) bilgisi</li>
+<li>Hatadan önceki uygulama olayları (ör. ekran geçişleri, uygulamanın ön/arka
+plana geçmesi, sistem olayları, uygulama günlük satırları)</li>
+<li>Cihaz modeli, üreticisi, Android sürümü, ekran, bellek ve depolama bilgileri,
+dil ve saat dilimi</li>
+<li>Uygulama sürümü ve ortamı, açılış süresi ve ekran performansı ölçümleri</li>
+<li>Sentry'nin bu kurulum için ürettiği rastgele bir tanımlayıcı</li>
+<li>Bağlantı sırasında doğal olarak iletilen IP adresi</li>
+</ul>
+<p>Uygulama Sentry'ye adını, e-posta adresini veya ekran görüntüsü göndermez
 ve kişisel veri gönderimi (sendDefaultPii) kapalıdır. Mesai ve maaş kayıtların
 Sentry'ye bilerek gönderilmez; ancak bir hata mesajı nadiren o anda işlenen bir
-değeri içerebilir.
-
-Sentry verileri Amerika Birleşik Devletleri'ndeki sunucularda işler ve
+değeri içerebilir.</p>
+<p>Sentry verileri Amerika Birleşik Devletleri'ndeki sunucularda işler ve
 [SENTRY SAKLAMA SÜRESİ, ör. 90 gün] boyunca saklar. Ayrıntılar:
-https://sentry.io/privacy/
-
-## 5. Satın alımlar (Google Play ve RevenueCat)
-
-EKSTRA Pro, Google Play üzerinden alınan ve her ay otomatik yenilenen bir
+https://sentry.io/privacy/</p>
+<h2>5. Satın alımlar (Google Play ve RevenueCat)</h2>
+<p>EKSTRA Pro, Google Play üzerinden alınan ve her ay otomatik yenilenen bir
 aboneliktir. Pro yalnızca reklamları kaldırır; uygulamanın tüm özellikleri
 ücretsiz planda da kullanılabilir. Aboneliği istediğin zaman Google Play'de
-"Ödemeler ve abonelikler" bölümünden iptal edebilirsin; iptal, o anki dönemin
-sonunda geçerli olur.
-
-- **Ödeme Google Play tarafından** alınır. Kart veya ödeme bilgilerini biz
-  görmeyiz; bu bilgiler Google'ın gizlilik politikasına tabidir:
-  https://policies.google.com/privacy
-- Satın alımı doğrulamak, Pro durumunu belirlemek ve **satın alımı geri
-  yüklemek** için RevenueCat, Inc. ("RevenueCat") hizmetini kullanırız.
-  RevenueCat'e şu veriler iletilir: rastgele oluşturulan anonim kullanıcı
-  kimliği, satın alma jetonu (purchase token) ve işlem bilgileri, ürün, fiyat,
-  para birimi ve ülke, satın alma tarihi, cihaz ve işletim sistemi bilgileri,
-  uygulama sürümü ve bağlantı sırasında iletilen IP adresi.
-- Uygulama RevenueCat'e adını veya e-posta adresini göndermez.
-- Uygulamayı yeniden yüklediğinde veya yeni cihaza geçtiğinde "Satın alımları
-  geri yükle" seçeneği, aynı Google hesabıyla yapılmış satın alımı Google Play
-  ve RevenueCat üzerinden yeniden etkinleştirir.
-
-RevenueCat verileri Amerika Birleşik Devletleri'nde işleyebilir. Ayrıntılar:
-https://www.revenuecat.com/privacy/
-
-## 6. Reklamlar (Google AdMob)
-
-Ücretsiz planı reklamla destekleriz. Reklamlar Google LLC / Google Ireland
-Limited'in ("Google") **Google AdMob** hizmetiyle gösterilir.
-
-**Ne zaman reklam görürsün?**
-
-- Uygulamayı ilk kullandığın andan itibaren **72 saat boyunca reklam
-  gösterilmez**. Bu süre uygulamayı yeniden başlatman, güncellemen veya
-  aboneliğinin değişmesiyle yeniden başlamaz.
-- 72 saatten sonra ücretsiz planda yalnızca **Ana Sayfa'nın altında tek bir
-  banner reklam** gösterilebilir. Geçiş (tam ekran), ödüllü veya uygulama
-  açılış reklamı kullanılmaz.
-- **Pro aboneliği etkinken reklam gösterilmez.** Abonelik sona ererse ve 72
-  saatlik süre zaten dolmuşsa reklamlar yeniden gösterilebilir.
-- Pro durumun belirlenemezken (ör. ilk açılışta henüz doğrulanmadıysa) reklam
-  gösterilmez.
-
-**Google'a hangi veriler iletilir?**
-
-Reklam gösterildiğinde veya reklam izni kontrol edildiğinde Google Mobile Ads
+&quot;Ödemeler ve abonelikler&quot; bölümünden iptal edebilirsin; iptal, o anki dönemin
+sonunda geçerli olur.</p>
+<ul>
+<li><strong>Ödeme Google Play tarafından</strong> alınır. Kart veya ödeme bilgilerini biz
+görmeyiz; bu bilgiler Google'ın gizlilik politikasına tabidir:
+https://policies.google.com/privacy</li>
+<li>Satın alımı doğrulamak, Pro durumunu belirlemek ve <strong>satın alımı geri
+yüklemek</strong> için RevenueCat, Inc. (&quot;RevenueCat&quot;) hizmetini kullanırız.
+RevenueCat'e şu veriler iletilir: rastgele oluşturulan anonim kullanıcı
+kimliği, satın alma jetonu (purchase token) ve işlem bilgileri, ürün, fiyat,
+para birimi ve ülke, satın alma tarihi, cihaz ve işletim sistemi bilgileri,
+uygulama sürümü ve bağlantı sırasında iletilen IP adresi.</li>
+<li>Uygulama RevenueCat'e adını veya e-posta adresini göndermez.</li>
+<li>Uygulamayı yeniden yüklediğinde veya yeni cihaza geçtiğinde &quot;Satın alımları
+geri yükle&quot; seçeneği, aynı Google hesabıyla yapılmış satın alımı Google Play
+ve RevenueCat üzerinden yeniden etkinleştirir.</li>
+</ul>
+<p>RevenueCat verileri Amerika Birleşik Devletleri'nde işleyebilir. Ayrıntılar:
+https://www.revenuecat.com/privacy/</p>
+<h2>6. Reklamlar (Google AdMob)</h2>
+<p>Ücretsiz planı reklamla destekleriz. Reklamlar Google LLC / Google Ireland
+Limited'in (&quot;Google&quot;) <strong>Google AdMob</strong> hizmetiyle gösterilir.</p>
+<p><strong>Ne zaman reklam görürsün?</strong></p>
+<ul>
+<li>Uygulamayı ilk kullandığın andan itibaren <strong>72 saat boyunca reklam
+gösterilmez</strong>. Bu süre uygulamayı yeniden başlatman, güncellemen veya
+aboneliğinin değişmesiyle yeniden başlamaz.</li>
+<li>72 saatten sonra ücretsiz planda yalnızca <strong>Ana Sayfa'nın altında tek bir
+banner reklam</strong> gösterilebilir. Geçiş (tam ekran), ödüllü veya uygulama
+açılış reklamı kullanılmaz.</li>
+<li><strong>Pro aboneliği etkinken reklam gösterilmez.</strong> Abonelik sona ererse ve 72
+saatlik süre zaten dolmuşsa reklamlar yeniden gösterilebilir.</li>
+<li>Pro durumun belirlenemezken (ör. ilk açılışta henüz doğrulanmadıysa) reklam
+gösterilmez.</li>
+</ul>
+<p><strong>Google'a hangi veriler iletilir?</strong></p>
+<p>Reklam gösterildiğinde veya reklam izni kontrol edildiğinde Google Mobile Ads
 SDK'sı ve Google'ın izin aracı (User Messaging Platform) Google'a şu verileri
-iletebilir:
-
-- Cihazının **reklam kimliği** (Android Advertising ID) ve uygulama kümesi
-  kimliği (app set ID)
-- IP adresi ve buna dayalı **yaklaşık konum** (ülke/şehir düzeyinde; uygulama
-  konum izni istemez)
-- Cihaz modeli, işletim sistemi sürümü, dil, ekran ve ağ bilgileri gibi cihaz
-  ve tanılama bilgileri
-- Reklamla etkileşimler (gösterim, tıklama) ve uygulama açılışı gibi kullanım
-  bilgileri
-- Reklam izni (onay) tercihlerin
-
-Google bu verileri reklam sunmak ve ölçmek, reklam performansını analiz etmek,
+iletebilir:</p>
+<ul>
+<li>Cihazının <strong>reklam kimliği</strong> (Android Advertising ID) ve uygulama kümesi
+kimliği (app set ID)</li>
+<li>IP adresi ve buna dayalı <strong>yaklaşık konum</strong> (ülke/şehir düzeyinde; uygulama
+konum izni istemez)</li>
+<li>Cihaz modeli, işletim sistemi sürümü, dil, ekran ve ağ bilgileri gibi cihaz
+ve tanılama bilgileri</li>
+<li>Reklamla etkileşimler (gösterim, tıklama) ve uygulama açılışı gibi kullanım
+bilgileri</li>
+<li>Reklam izni (onay) tercihlerin</li>
+</ul>
+<p>Google bu verileri reklam sunmak ve ölçmek, reklam performansını analiz etmek,
 sahtekârlık ve kötüye kullanımı önlemek amacıyla ve kendi politikalarına göre
 işler; Google'ın verileri işleme biçimi ve saklama süreleri Google'ın
 sorumluluğundadır. Google verileri Amerika Birleşik Devletleri dahil yurt
-dışındaki sunucularda işleyebilir. **Mesai, vardiya, maaş ve hedef kayıtların
-reklam için kullanılmaz ve Google'a gönderilmez.**
-
-**Kişiselleştirilmiş reklam ve onay**
-
-- Yasal olarak onay gereken bölgelerde (ör. Avrupa Ekonomik Alanı, Birleşik
-  Krallık ve İsviçre) reklam göstermeden önce Google'ın onay formu
-  gösterilir; onay vermezsen kişiselleştirilmemiş veya sınırlı reklam
-  gösterilebilir ya da reklam gösterilmez. Tercihini istediğin zaman
-  **Ayarlar > Diğer > Gizlilik seçenekleri** bölümünden değiştirebilirsin (bu
-  seçenek yalnızca gerekli olduğu bölgelerde görünür).
-- Diğer bölgelerde Google, reklam kimliğini kullanarak kişiselleştirilmiş
-  reklam gösterebilir. Bunu Android'de **Ayarlar > Google > Reklamlar**
-  bölümünden reklam kimliğini sıfırlayarak veya silerek sınırlayabilirsin.
-  Google'daki reklam tercihlerini https://myadcenter.google.com adresinden
-  yönetebilirsin.
-
-Ayrıntılar:
-
-- Google Gizlilik Politikası: https://policies.google.com/privacy
-- Google'ın, hizmetlerini kullanan uygulamalardaki verileri nasıl kullandığı:
-  https://policies.google.com/technologies/partner-sites
-- Google'ın reklamlarda verileri nasıl kullandığı:
-  https://policies.google.com/technologies/ads
-- Google Mobile Ads SDK veri açıklaması:
-  https://developers.google.com/admob/android/privacy/play-data-disclosure
-
-## 7. Verileri kimlerle paylaşırız
-
-Verilerini satmayız. Yukarıda belirtilen hizmet sağlayıcılar (Sentry,
+dışındaki sunucularda işleyebilir. <strong>Mesai, vardiya, maaş ve hedef kayıtların
+reklam için kullanılmaz ve Google'a gönderilmez.</strong></p>
+<p><strong>Kişiselleştirilmiş reklam ve onay</strong></p>
+<ul>
+<li>Yasal olarak onay gereken bölgelerde (ör. Avrupa Ekonomik Alanı, Birleşik
+Krallık ve İsviçre) reklam göstermeden önce Google'ın onay formu
+gösterilir; onay vermezsen kişiselleştirilmemiş veya sınırlı reklam
+gösterilebilir ya da reklam gösterilmez. Tercihini istediğin zaman
+<strong>Ayarlar &gt; Diğer &gt; Gizlilik seçenekleri</strong> bölümünden değiştirebilirsin (bu
+seçenek yalnızca gerekli olduğu bölgelerde görünür).</li>
+<li>Diğer bölgelerde Google, reklam kimliğini kullanarak kişiselleştirilmiş
+reklam gösterebilir. Bunu Android'de <strong>Ayarlar &gt; Google &gt; Reklamlar</strong>
+bölümünden reklam kimliğini sıfırlayarak veya silerek sınırlayabilirsin.
+Google'daki reklam tercihlerini https://myadcenter.google.com adresinden
+yönetebilirsin.</li>
+</ul>
+<p>Ayrıntılar:</p>
+<ul>
+<li>Google Gizlilik Politikası: https://policies.google.com/privacy</li>
+<li>Google'ın, hizmetlerini kullanan uygulamalardaki verileri nasıl kullandığı:
+https://policies.google.com/technologies/partner-sites</li>
+<li>Google'ın reklamlarda verileri nasıl kullandığı:
+https://policies.google.com/technologies/ads</li>
+<li>Google Mobile Ads SDK veri açıklaması:
+https://developers.google.com/admob/android/privacy/play-data-disclosure</li>
+</ul>
+<h2>7. Verileri kimlerle paylaşırız</h2>
+<p>Verilerini satmayız. Yukarıda belirtilen hizmet sağlayıcılar (Sentry,
 RevenueCat, Google Play) bizim adımıza ve belirtilen amaçlarla veri işler.
 Ücretsiz planda reklam gösterimi için Bölüm 6'da açıklanan veriler Google'a
 iletilir; Google bu verileri kendi politikalarına göre, kişiselleştirilmiş
 reklam için de kullanabilir. Yasal bir zorunluluk olması halinde yetkili
-makamlarla paylaşım yapılabilir.
-
-## 8. Uygulama izinleri
-
-- **Bildirimler:** Hatırlatıcıları gösterebilmek için (isteğe bağlı; Android
-  ayarlarından kapatılabilir).
-- **Cihaz yeniden başladığında çalışma:** Planlanmış hatırlatıcıları yeniden
-  kurmak için.
-- **İnternet ve ağ durumu:** Satın alma doğrulaması, hata raporları ve
-  reklamlar için.
-- **Google Play faturalandırma:** Pro aboneliği için.
-- **Reklam kimliği (com.google.android.gms.permission.AD_ID):** Ücretsiz
-  planda reklam göstermek için (bkz. Bölüm 6).
-
-Uygulama konum, kişiler, kamera, mikrofon veya depolama iznine erişmez.
-
-## 9. Saklama süresi ve silme
-
-- **Cihazdaki veriler:** Sen silene kadar cihazında kalır. Kayıtları uygulama
-  içinden silebilir veya uygulamayı kaldırarak ya da Android ayarlarından
-  "Verileri temizle" ile tüm yerel verileri silebilirsin. Bu işlem geri
-  alınamaz; önce JSON yedeği almanı öneririz.
-- **Sentry:** Hata raporları Sentry'nin saklama süresi sonunda otomatik olarak
-  silinir.
-- **RevenueCat ve Google Play:** Satın alma kayıtları, satın alımın geri
-  yüklenebilmesi ve yasal (ör. vergi ve muhasebe) yükümlülükler için gerekli
-  süre boyunca saklanır.
-- **Google AdMob:** Reklam verileri Google'ın saklama politikalarına göre
-  saklanır: https://policies.google.com/technologies/retention
-  Reklam kimliğini Android ayarlarından sıfırlayabilir veya silebilirsin.
-- Sentry veya RevenueCat'te seninle ilişkilendirilebilecek verilerin
-  silinmesini istersen bize aşağıdaki adresten yazabilirsin. Uygulamada hesap
-  olmadığı için seni doğrulamak amacıyla satın alma sipariş numaran (GPA.…)
-  gibi bilgiler isteyebiliriz.
-
-## 10. Güvenlik
-
-Cihazdaki veriler şifrelenir; Sentry, RevenueCat ve Google AdMob ile
+makamlarla paylaşım yapılabilir.</p>
+<h2>8. Uygulama izinleri</h2>
+<ul>
+<li><strong>Bildirimler:</strong> Hatırlatıcıları gösterebilmek için (isteğe bağlı; Android
+ayarlarından kapatılabilir).</li>
+<li><strong>Cihaz yeniden başladığında çalışma:</strong> Planlanmış hatırlatıcıları yeniden
+kurmak için.</li>
+<li><strong>İnternet ve ağ durumu:</strong> Satın alma doğrulaması, hata raporları ve
+reklamlar için.</li>
+<li><strong>Google Play faturalandırma:</strong> Pro aboneliği için.</li>
+<li><strong>Reklam kimliği (com.google.android.gms.permission.AD_ID):</strong> Ücretsiz
+planda reklam göstermek için (bkz. Bölüm 6).</li>
+</ul>
+<p>Uygulama konum, kişiler, kamera, mikrofon veya depolama iznine erişmez.</p>
+<h2>9. Saklama süresi ve silme</h2>
+<ul>
+<li><strong>Cihazdaki veriler:</strong> Sen silene kadar cihazında kalır. Kayıtları uygulama
+içinden silebilir veya uygulamayı kaldırarak ya da Android ayarlarından
+&quot;Verileri temizle&quot; ile tüm yerel verileri silebilirsin. Bu işlem geri
+alınamaz; önce JSON yedeği almanı öneririz.</li>
+<li><strong>Sentry:</strong> Hata raporları Sentry'nin saklama süresi sonunda otomatik olarak
+silinir.</li>
+<li><strong>RevenueCat ve Google Play:</strong> Satın alma kayıtları, satın alımın geri
+yüklenebilmesi ve yasal (ör. vergi ve muhasebe) yükümlülükler için gerekli
+süre boyunca saklanır.</li>
+<li><strong>Google AdMob:</strong> Reklam verileri Google'ın saklama politikalarına göre
+saklanır: https://policies.google.com/technologies/retention
+Reklam kimliğini Android ayarlarından sıfırlayabilir veya silebilirsin.</li>
+<li>Sentry veya RevenueCat'te seninle ilişkilendirilebilecek verilerin
+silinmesini istersen bize aşağıdaki adresten yazabilirsin. Uygulamada hesap
+olmadığı için seni doğrulamak amacıyla satın alma sipariş numaran (GPA.…)
+gibi bilgiler isteyebiliriz.</li>
+</ul>
+<h2>10. Güvenlik</h2>
+<p>Cihazdaki veriler şifrelenir; Sentry, RevenueCat ve Google AdMob ile
 iletişim HTTPS üzerinden şifreli yapılır. Hiçbir yöntem tam güvenlik garanti etmez; ancak
-verilerini korumak için makul önlemleri alırız.
-
-## 11. Çocuklar
-
-EKSTRA çalışan yetişkinlere yöneliktir ve 13 yaşından küçük çocuklara yönelik
+verilerini korumak için makul önlemleri alırız.</p>
+<h2>11. Çocuklar</h2>
+<p>EKSTRA çalışan yetişkinlere yöneliktir ve 13 yaşından küçük çocuklara yönelik
 değildir; reklamlar da çocuklara yönelik değildir. Bilerek çocuklardan veri
-toplamayız.
-
-## 12. Haklarınız (KVKK)
-
-6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi kapsamında;
+toplamayız.</p>
+<h2>12. Haklarınız (KVKK)</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi kapsamında;
 kişisel verilerinin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini
 veya silinmesini isteme, yurt dışına aktarıldığı üçüncü kişileri bilme ve
 itiraz etme haklarına sahipsin. Taleplerini aşağıdaki adrese iletebilirsin;
-en geç 30 gün içinde yanıtlarız.
-
-Veri sorumlusu: [GELİŞTİRİCİ ADI / UNVANI], [ADRES]
-
-## 13. Değişiklikler
-
-Bu politikayı güncelleyebiliriz. Önemli değişiklikleri uygulama içinde veya
+en geç 30 gün içinde yanıtlarız.</p>
+<p>Veri sorumlusu: [GELİŞTİRİCİ ADI / UNVANI], [ADRES]</p>
+<h2>13. Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Önemli değişiklikleri uygulama içinde veya
 Google Play sayfasında duyururuz. Güncel sürüm her zaman bu adreste yer alır:
-[GİZLİLİK POLİTİKASI URL'Sİ]
+[GİZLİLİK POLİTİKASI URL'Sİ]</p>
+<h2>14. İletişim</h2>
+<p>Gizlilikle ilgili sorular ve talepler için: [İLETİŞİM E-POSTASI]</p>
 
-## 14. İletişim
-
-Gizlilikle ilgili sorular ve talepler için: [İLETİŞİM E-POSTASI]
+</article></main>
+<footer>© EKSTRA · Gizlilik Politikası</footer>
+</body></html>
